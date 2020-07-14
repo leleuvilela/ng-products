@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+  .sidenav {
+    background-color: var(--primary);
+    width: 200px;
+
+    a {
+      color: var(--white);
+    }
+
+    i {
+      padding-right: 10px;
+    }
+  }
+
+  .content {
+    padding: 16px;
+    background-color: var(--secondary);
+    min-height: 629px;
+  }
+}
